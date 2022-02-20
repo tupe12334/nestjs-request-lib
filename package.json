@@ -1,6 +1,6 @@
 {
   "name": "nestjs-request-lib",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This lib extract the request object from the nestjs ExecutionContext",
   "main": "./lib/index.js",
   "files": [
