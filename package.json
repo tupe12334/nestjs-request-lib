@@ -1,0 +1,31 @@
+{
+  "name": "@tupe12334/nestjs-request-lib",
+  "version": "0.0.1",
+  "description": "This lib extract the request object from the nestjs ExecutionContext",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "maintainers": [
+    "tupe12334"
+  ],
+  "keywords": [
+    "nestjs",
+    "ExecutionContext"
+  ],
+  "author": "tupe12334",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "17.0.18",
+    "typescript": "4.5.5"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "8.x",
+    "@nestjs/graphql": "9.x"
+  },
+  "peerDependenciesMeta": {
+    "@nestjs/graphql": {
+      "optional": true
+    }
+  }
+}
